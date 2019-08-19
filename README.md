@@ -1,12 +1,22 @@
-# Project_WordCard
+# 단어장
 
-### This word card program provides you to below features
-- open the word card text file
-- the file should follow the below format
-  - ex) word1 : description1; word2 : description2; ....
-- you have 2 times to guess the answer
-  - if you guess correct answer, you got 10 points
-  - if you fail to guess or see the answer, you lose 10 points & make correction note
+### 해당 프로그램은 아래와 같은 기능을 제공합니다.
+@WordCard_ver1.0 (2019-06-27)
+- [Upload File] : 단어가 수록된 .txt 확장자 파일을 프로그램에서 여는 버튼
+	- 파일은 반드시 단어 : 설명; 단어 : 설명; 과 같은 형식으로 작성되어야 프로그램이 정상적으로 작동합니다.
+	- 예시) SCM : 공급사슬관리, Supply Chain Management의 약자;
+- <Question> : 단어의 설명 부분이 나오는 영역
+- <Score> : 현재 점수를 확인할 수 있는 영역 (맞추면 +10점, 틀리거나 답을 보면 -10점)
+- [Try] : 답을 입력하는 다이얼로그를 띄우는 버튼
+	- 답을 맞출 수 있는 기회가 2번 주어집니다.
+	- 기회를 모두 소진 시 틀린 것으로 처리(-10점)되며 오답노트를 작성할 수 있습니다.
+- [See Answer] : 정답을 확인할 수 있는 버튼
+	- 현재 문제에 대한 정답을 확인할 수 있습니다.
+	- 정답을 확인할 경우 틀린 것으로 처리(-10점)되며 오답노트를 작성할 수 있습니다.
+- [저장 다이얼로그] : 오답노트를 .txt 확장자 파일형식으로 원하는 위치에 저장할 수 있게 합니다.
+	- Try 기회를 모두 소진하여 틀린 것으로 처리된 경우
+	- See Answer 버튼을 누른 경우
+	- 위의 두 가지 경우 저장 다이얼로그가 활성화되며 해당 다이얼로그를 통해 오답노트를 작성할 수 있습니다.
 
 ### Word Card Ver 1.0
 ![Word Card Ver 1.0](https://github.com/DustinYook/Project_WordCard/blob/master/image/WordCard.gif)
